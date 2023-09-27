@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
+  namespace: dev
   name: mongodb-configmap
 
 data:
